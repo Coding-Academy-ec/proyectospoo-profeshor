@@ -27,7 +27,7 @@ README.md
 Para ejecutar el Sistema de Gestión de Biblioteca, sigue los siguientes pasos:
 
 - Abre una terminal.
-- Navega hasta el directorio raíz del proyecto (biblioteca).
+- Navega hasta el directorio raíz del proyecto general.
 - Ejecuta el siguiente comando: **python -m biblioteca**.
 
 Con esto, podrás disfrutar de la funcionalidad ofrecida por el Sistema de Gestión de Biblioteca. ¡Que lo disfrutes!

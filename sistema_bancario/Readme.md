@@ -33,5 +33,5 @@ README.md
 Para ejecutar el Simulador de Sistema Bancario, sigue los siguientes pasos:
 
 - Abre una terminal.
-- Navega hasta el directorio raíz del proyecto (sistema_bancario).
+- Navega hasta el directorio raíz del proyecto genral.
 - Ejecuta el siguiente comando: **python -m sistema_bancario**.

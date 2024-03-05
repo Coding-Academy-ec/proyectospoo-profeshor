@@ -40,7 +40,7 @@ README.md
 Para ejecutar la Aplicación de Gestión de Tareas, sigue los siguientes pasos:
 
 - Abre una terminal.
-- Navega hasta el directorio raíz del proyecto (gestion_tareas).
+- Navega hasta el directorio raíz del proyecto general.
 - Ejecuta el siguiente comando: **python -m gestion_tareas**.
 
 Con esto, podrás disfrutar de la funcionalidad ofrecida por la Aplicación de Gestión de Tareas. ¡Que lo disfrutes!
