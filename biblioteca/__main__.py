@@ -4,12 +4,20 @@ from biblioteca.transacciones import Transaccion
 
 def main():
     # Crear algunos libros
-    libro1 = Libro("1234567890", "Python Programming", "Guido van Rossum")
-    libro2 = Libro("0987654321", "Clean Code", "Robert C. Martin")
+    print ("****** Ingreso un libro ******")
+    #libro1 = Libro("1234567890", "Python Programming", "Guido van Rossum")
+    libro1 = Libro(
+        input("Ingresar ISBN del libro: "),
+        input("Ingresar título del libro: "),
+        input("Ingresar autor del libro: ")
+    )
 
     # Crear algunos usuarios
-    usuario1 = Usuario("1001", "Alice")
-    usuario2 = Usuario("1002", "Bob")
+    print ("****** Ingreso un usuario ******")
+    usuario1 = Usuario(
+        input("Ingresa código de usuario: "),
+        input("Ingresa Nombre del usuario: ")
+    )
 
     # Fecha de préstamo
     fecha_prestamo = "2024-03-10"  # Por ejemplo, fecha actual
@@ -17,12 +25,11 @@ def main():
     # Realizar algunas transacciones
     transaccion1 = Transaccion(usuario1, libro1, fecha_prestamo)
     transaccion1.prestar()
-    transaccion2 = Transaccion(usuario2, libro2, fecha_prestamo)
-    transaccion2.prestar()
+    print("El libro está prestado")
 
     # Mostrar detalles de las transacciones
     print("Transacciones realizadas:")
-    for transaccion in [transaccion1, transaccion2]:
+    for transaccion in [transaccion1]:
         print(transaccion)
 
 if __name__ == "__main__":

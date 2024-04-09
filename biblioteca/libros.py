@@ -5,6 +5,7 @@ class Libro:
         self.isbn = isbn
         self.titulo = titulo
         self.autor = autor
+        self.status = "Disponible"
 
 class LibroPrestado(Libro):
     def __init__(self, isbn, titulo, autor, prestado_a):
